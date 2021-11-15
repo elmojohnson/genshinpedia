@@ -1,0 +1,157 @@
+/* body {
+  font-family: "ja-jp" !important;
+} */
+* {
+  cursor: url('../img/pointer.png'), auto !important;
+}
+
+.container {
+  width: 60% !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100% !important;
+  }
+  .character_info {
+    height: 100% !important;
+  }
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.link-shadow {
+  color: white;
+  text-shadow: 2px 2px 10px #303030;
+}
+
+.link-shadow:hover {
+  color: white;
+  text-shadow: 2px 10px 10px #303030;
+}
+
+.hover_shadow:hover {
+  box-shadow: 0px 2px 1px 1px #8a8a8a;
+}
+
+.welcome_cover {
+  background: url("../img/view_bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home_links a {
+  text-decoration: none;
+}
+
+.intro_bg {
+  background-image: url("../img/intro.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.view_bg {
+  background-image: url("../img/view_bg.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.Mondstadt {
+  background-image: url("../img/monstadt.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.Liyue {
+  background-image: url("../img/liyue.png");
+  background-size: cover;
+  height: 100%;
+}
+
+.Inazuma {
+  background-image: url("../img/inazuma.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.five_star {
+  background: #a57139;
+}
+
+.four_star {
+  background: #976fb6;
+}
+
+.vision_alignment {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 2;
+}
+
+.checked {
+  /* color: orange; */
+  margin: 2px;
+}
+
+.character_info {
+  height: 93vh;
+}
+
+/* Elements */
+.Anemo {
+  background-color: #56d6aa;
+}
+
+.Cryo {
+  background-color: #8deae2;
+}
+
+.Dendro {
+  background-color: #9fcd2e;
+}
+
+.Electro {
+  /* background-color: #cf91f9; */
+  background-color: #9d58ca;
+}
+
+.Geo {
+  background-color: #f2b039;
+}
+
+.Hydro {
+  background-color: #2fc6f7;
+}
+
+.Pyro {
+  /* background-color: #e17a35; */
+  background-color: #c53e00;
+}
+
+.transition {
+  transition: background-color 1s ease;
+}
+
+.particles {
+  background-image: url("../img/particles4.jpg");
+  background-size: cover;
+}
+
+.blend_bg {
+  background-blend-mode: multiply;
+}
+
+.text-shadow {
+  color: white;
+  text-shadow: 2px 2px 10px #303030;
+}
+
+th {
+  width: 20%;
+  padding-right: 15px;
+}
