@@ -15,17 +15,17 @@ export default function Home() {
         <div>
           <h1 className="mb-2 mt-5">Characters</h1>
           <CharacterList isLimit={true} />
-          <a href="/characters" className="btn btn-sm btn-primary float-end">View more</a>
+          <a href="/characters" className="btn btn-sm btn-secondary float-end">View more</a>
         </div>
         <div>
           <h1 className="mb-2 mt-5">Artifacts</h1>
           <ArtifactList isLimit={true} />
-          <a href="/artifacts" className="btn btn-sm btn-primary float-end mt-4">View more</a>
+          <a href="/artifacts" className="btn btn-sm btn-secondary float-end mt-4">View more</a>
         </div>
         <div>
           <h1 className="mb-2 mt-5">Weapons</h1>
           <WeaponList isLimit={true} />
-          <a href="/weapons" className="btn btn-sm btn-primary float-end mt-4 mb-4">View more</a>
+          <a href="/weapons" className="btn btn-sm btn-secondary float-end mt-4 mb-4">View more</a>
         </div>
       </Container>
       {/* <div className="bg-secondary d-flex align-items-center welcome_cover" style={{height: '92.3vh'}}>

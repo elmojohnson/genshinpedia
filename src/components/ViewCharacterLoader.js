@@ -8,8 +8,10 @@ export default function ViewCharacterLoader() {
       <Container>
         <Row>
           <Col xs={12} md={8}>
-            <Skeleton height={30}/>
-            <Skeleton height={50}/>
+            <div>
+              <Skeleton height={30} />
+              <Skeleton height={50} />
+            </div>
           </Col>
           <Col xs={12} md={4}>
             <Skeleton height={600} />

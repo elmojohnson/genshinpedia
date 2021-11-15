@@ -45,6 +45,7 @@ function ViewArtiact() {
               <LazyLoadImage
                 src={`https://api.genshin.dev/artifacts/${name}/flower-of-life.png`}
                 effect="blur"
+                fluid
               />
               <div className="mt-4">
                 {Array.from({ length: artifact.max_rarity }).map((_, idx) => (
@@ -62,9 +63,9 @@ function ViewArtiact() {
                 <b className="fs-5">{artifact["2-piece_bonus"]}</b>
               </p>
               <p className="lh-1 mb-4">
-                4 - Piece Bonus
-                <br />
-                <b className="fs-5">{artifact["4-piece_bonus"]}</b>
+                <span className="small">4 - Piece Bonus</span>
+                <br/>
+                {artifact["4-piece_bonus"]}
               </p>
             </Col>
           </Row>
